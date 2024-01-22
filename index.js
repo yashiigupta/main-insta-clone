@@ -2,7 +2,7 @@ function login() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
     if (username == "yashi" && password == "yashi") {
-        window.location.href = "mainPage/index.html"; 
+        window.location.href = "mainPage/Index.html"; 
         return false;
     } else {
         alert("Login failed");
